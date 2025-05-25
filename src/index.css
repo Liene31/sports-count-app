@@ -4,9 +4,7 @@ body {
 }
 
 body {
-  background-image: url("../images/background-image.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #1b2d43;
   text-align: center;
   font-family: "Roboto", serif;
   color: #0b192c;
