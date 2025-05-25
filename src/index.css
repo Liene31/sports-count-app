@@ -1,0 +1,58 @@
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background-image: url("../images/background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: "Roboto", serif;
+  color: #0b192c;
+}
+
+.container {
+  margin: 85px auto;
+  padding-top: 30px;
+  max-width: 300px;
+  height: 350px;
+  background: radial-gradient(
+    circle at 50.3% 44.5%,
+    rgb(116, 147, 179, 0.5) 0%,
+    rgb(62, 83, 104, 0.5) 100.2%
+  );
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.entries {
+  font-size: 17px;
+}
+
+button {
+  background: #1e3e62;
+  width: 120px;
+  color: whitesmoke;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 5px;
+}
